@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "AppSelect"
 include ':app'
 include ':logging'
+include ':common'
