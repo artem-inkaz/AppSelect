@@ -2,9 +2,9 @@ import org.gradle.api.JavaVersion
 
 object Modules {
     const val logging = ":logging"
-//    const val data = ":data"
-//    const val domain = ":domain"
-//    const val common = ":common"
+    const val data = ":data"
+    const val domain = ":domain"
+    const val common = ":common"
 }
 
 object Config {
@@ -33,6 +33,7 @@ object LibVersion {
     const val ktx_activity = "1.4.0"
     const val retrofit = "2.9.0"
     const val okhttp = "4.9.0"
+    const val gson = "2.8.6"
     const val coroutinesVersion = "1.4.2"
     const val coroutinesAdapter = "0.9.2"
     const val annotation = "1.1.0"
@@ -41,6 +42,7 @@ object LibVersion {
     const val roomPaging = "2.4.0-alpha04"
     const val hiltVersion = "2.41"
     const val coil = "0.11.0"
+    const val circleImageViewVersion = "3.0.0"
     const val swipeRefreshVersion = "1.1.0"
     const val pagingVersion = "3.0.0"
     const val viewbinding = "1.4.6"
@@ -179,6 +181,7 @@ object Retrofit {
     const val converterGSON = "com.squareup.retrofit2:converter-gson:${LibVersion.retrofit}"
     const val coroutinesAdapter =
         "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${LibVersion.coroutinesAdapter}"
+    const val gson = "com.google.code.gson:gson:${LibVersion.gson}"
 }
 
 object OkHttp {
@@ -190,6 +193,11 @@ object OkHttp {
 
 object Coil {
     const val coil = "io.coil-kt:coil:${LibVersion.coil}"
+}
+
+object CircleImage {
+    const val circleImageViewVersion =
+        "de.hdodenhof:circleimageview:${LibVersion.circleImageViewVersion}"
 }
 
 object Paging {

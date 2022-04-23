@@ -89,6 +89,7 @@ dependencies {
     implementation(Room.runtime)
     implementation(Room.ktx)
     kapt(Room.compiler)
+    implementation(Room.roomPaging)
 
     // Activity KTX
     implementation(AndroidX.ktx_activity)
@@ -104,7 +105,7 @@ dependencies {
     implementation(Retrofit.main)
     implementation(Retrofit.converterGSON)
     implementation(Retrofit.coroutinesAdapter)
-
+    implementation(Retrofit.gson)
     // OkHTTP
     implementation(OkHttp.main)
     implementation(OkHttp.logging_interceptor)
@@ -123,6 +124,7 @@ dependencies {
 
     //Coil
     implementation(Coil.coil)
+    implementation (CircleImage.circleImageViewVersion)
 
     //Swipe Refresh Layout
     implementation(AndroidX.SwipeRefreshLayout)
@@ -145,4 +147,9 @@ dependencies {
     testImplementation(Test.junit)
     androidTestImplementation(Test.junit_ext)
     androidTestImplementation(Espresso.core)
+
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":logging"))
+    implementation(project(":common"))
 }

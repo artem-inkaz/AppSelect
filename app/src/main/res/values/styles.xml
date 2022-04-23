@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="nav_host_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_nav_host_fragment_container</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="progressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="tvErrorMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_tvErrorMessage</item>
+        <item name="android:textColor">@color/design_default_color_on_primary</item>
+    </style>
+    <style name="container_item_load_state">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_container_item_load_state</item>
+    </style>
+    <style name="btnRetry">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_btn_retry</item>
+        <item name="android:text">@string/text_retry</item>
+    </style>
+    <style name="container_main_fragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="movie_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="container_movie_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="display_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_display_title</item>
+        <item name="android:justificationMode" tools:targetApi="o">inter_word</item>
+        <item name="android:paddingStart">@dimen/height_display_title</item>
+        <item name="android:textSize">@dimen/text_size_display_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="image_post">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_image_post</item>
+        <item name="android:scaleType" >fitXY</item>
+        <item name="android:src">@drawable/placeholder_image</item>
+    </style>
+    <style name="summary_short">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:justificationMode" tools:targetApi="o">inter_word</item>
+        <item name="android:layout_margin">@dimen/padding_start_display_title</item>
+        <item name="android:paddingStart">@dimen/padding_start_display_title</item>
+        <item name="android:paddingEnd">@dimen/padding_start_display_title</item>
+        <item name="android:textSize">@dimen/text_summary_short</item>
+    </style>
+    <style name="logo">
+        <item name="android:layout_width">@dimen/width_logo</item>
+        <item name="android:layout_height">@dimen/height_logo</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_logo</item>
+        <item name="android:src">@mipmap/logo</item>
+    </style>
+</resources>

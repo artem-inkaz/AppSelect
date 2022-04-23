@@ -10,12 +10,13 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.viewbinding.ViewBinding
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 abstract class BaseFragment<Binding : ViewBinding> : Fragment() {
 
     val TAG = javaClass.simpleName
-
+    protected var job: Job? = null
     protected abstract val layoutId: Int
 
     protected lateinit var binding: Binding

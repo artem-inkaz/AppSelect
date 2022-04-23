@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="display_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_display_title</item>
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:paddingStart">@dimen/height_display_title</item>
+        <item name="android:textSize">@dimen/text_size_display_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
