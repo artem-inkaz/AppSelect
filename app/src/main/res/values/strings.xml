@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppSelect</string>
+    <string name="internet_not_available">Упс, кажется отключен интернет, проверьте!</string>
+    <string name="text_retry">Повторить</string>
+    <string name="tools_text_error_message">Timeout</string>
+    <string name="tools_text_display_title">Пост</string>
+    <string name="tools_text_summary_short">This Disneynature documentary traces one female polar bear’s journey from cub to mother.</string>
 </resources>

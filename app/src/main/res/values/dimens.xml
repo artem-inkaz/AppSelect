@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_nav_host_fragment_container">0dp</dimen>
+    <dimen name="text_tvErrorMessage">14sp</dimen>
+    <dimen name="padding_container_item_load_state">10dp</dimen>
+    <dimen name="margin_top_btn_retry">6dp</dimen>
+    <dimen name="height_display_title">50dp</dimen>
+    <dimen name="padding_start_display_title">8dp</dimen>
+    <dimen name="text_size_display_title">20sp</dimen>
+    <dimen name="height_image_post">200dp</dimen>
+    <dimen name="text_summary_short">18sp</dimen>
+    <dimen name="width_logo">200dp</dimen>
+    <dimen name="height_logo">200dp</dimen>
+    <dimen name="margin_top_logo">228dp</dimen>
+</resources>

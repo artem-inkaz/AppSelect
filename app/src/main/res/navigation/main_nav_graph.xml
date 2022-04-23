@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ui.smartpro.appselect.ui.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_fragment" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="ui.smartpro.appselect.splash.SplashActivity"
+        android:label="SplashActivity"
+        tools:layout="@layout/splash_activity" />
+</navigation>
